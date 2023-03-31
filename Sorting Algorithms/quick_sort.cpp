@@ -1,5 +1,13 @@
 #include<bits/stdc++.h>
 using namespace std;
+// // Explanation 
+// Step 1 -> Pick a pviot 
+//           1st element
+//           last element
+//           medium element
+//           Any element
+// step 2 -> iterate two pointer til arr[i] <= pivot and arr[j] >= pivot (Smaller on the left and larger on the right)     
+     
 int partition(vector<int>&arr,int low,int high){
     int pivot = arr[low];
     int i = low;
