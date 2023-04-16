@@ -1,6 +1,6 @@
 #include<bits/stdc++.h>
 using namespace std;
-vector<int> NGR(vector<int>&arr,int n){
+vector<int> NGL(vector<int>&arr,int n){
     vector<int>ans;
     stack<int>s;
     for(int i = 0;i<n;i++){
@@ -34,7 +34,7 @@ for(auto it:arr){
     cout<<it<<" ";
 }
 cout<<endl;
-vector<int>ans = NGR(arr,n);
+vector<int>ans = NGL(arr,n);
 for(auto it:ans){
     cout<<it<<" ";
 }
