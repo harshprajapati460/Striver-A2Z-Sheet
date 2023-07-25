@@ -15,7 +15,7 @@ struct Node{
 //  Simple count length of both list 
 //  iterate the diff let say d of one head bigger one
 //  then iterate till they are equal
-// Time complexity O(N) But too many loops overall is O(N);
+// Time complexity O(N) ;
 int length(Node *head){
     int c = 0;
     Node *temp = head;
